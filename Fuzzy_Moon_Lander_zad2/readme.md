@@ -11,8 +11,6 @@ System decyduje o mocy silnika głównego i bocznych, analizując parametry taki
 - kąt nachylenia i prędkość kątowa,
 - kontakt z podłożem.
 
-Dzięki zastosowaniu reguł rozmytych oraz heurystyk, rakieta uczy się wykonywać **miękkie lądowania**, minimalizując ryzyko rozbicia.
-
 ---
 
 ##  Autorzy
@@ -30,7 +28,7 @@ Dzięki zastosowaniu reguł rozmytych oraz heurystyk, rakieta uczy się wykonywa
 ### 1️⃣ Klonowanie projektu
 ```bash
 git clone git clone https://github.com/s27433-pj/NAI.git
-cd fuzzy-lunar-lander
+cd Fuzzy_Moon_lander_zad2
 ```
 
 ### 2️⃣ Utworzenie środowiska wirtualnego
@@ -83,9 +81,12 @@ Im wyższy wynik (bliżej +200), tym **lepsze i bardziej miękkie lądowanie**.
 ##  Podgląd wyników
 
 ###  Udane miękkie lądowanie
+![gif_moonLander](https://github.com/user-attachments/assets/a7b3db94-f3f2-4cd4-8866-4a142ee7f71d)
 
 
 ###  Nieudane lądowanie
+![gif_moonLander_faile](https://github.com/user-attachments/assets/1af58dd9-83f8-4ce0-a69b-731a15b63041)
+
 ```
 ========== WYNIK LOTU ==========
 Wynik: -91.33
