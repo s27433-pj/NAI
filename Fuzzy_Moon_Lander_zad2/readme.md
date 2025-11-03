@@ -27,20 +27,10 @@ System decyduje o mocy silnika głównego i bocznych, analizując parametry taki
 
 ### 1️⃣ Klonowanie projektu
 ```bash
-git clone git clone https://github.com/s27433-pj/NAI.git
-cd Fuzzy_Moon_lander_zad2
+# Klonowanie repozytorium
+git clone https://github.com/s27433-pj/NAI
 ```
-
-### 2️⃣ Utworzenie środowiska wirtualnego
-Windows:
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### 3️⃣ Instalacja zależności
-
-####  Jeśli używasz **Python 3.11 lub starszy**:
+#### 2️⃣ Jeśli używasz **Python 3.11 lub starszy**:
 ```bash
 pip install -r requirements.txt
 ```
@@ -49,9 +39,7 @@ pip install -r requirements.txt
 ```bash
 pip install -r requirements_3.12.txt
 ```
-
 ---
-
 ##  Uruchomienie programu
 Po aktywowaniu środowiska uruchom:
 ```bash
