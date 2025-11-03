@@ -81,11 +81,13 @@ Im wyższy wynik (bliżej +200), tym **lepsze i bardziej miękkie lądowanie**.
 ##  Podgląd wyników
 
 ###  Udane miękkie lądowanie
-![gif_moonLander](https://github.com/user-attachments/assets/a7b3db94-f3f2-4cd4-8866-4a142ee7f71d)
+![lander_loop](https://github.com/user-attachments/assets/7c8954f1-3541-452b-814f-28b21df8ec40)
+
 
 
 ###  Nieudane lądowanie
-![gif_moonLander_faile](https://github.com/user-attachments/assets/1af58dd9-83f8-4ce0-a69b-731a15b63041)
+![lander_loop_failed](https://github.com/user-attachments/assets/0c62f28d-4fb2-46a2-a9e8-94f35ec97f43)
+
 
 ```
 ========== WYNIK LOTU ==========
