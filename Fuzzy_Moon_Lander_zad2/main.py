@@ -1,3 +1,42 @@
+"""
+====================================================================
+SYSTEM STEROWANIA LĄDOWNIKIEM KSIĘŻYCOWYM
+====================================================================
+
+Autorzy: [s27433, ]
+Technologia: Python 3.11, scikit-fuzzy, Gymnasium (LunarLanderContinuous-v3)
+
+--------------------------------------------------------------------
+OPIS PROGRAMU:
+--------------------------------------------------------------------
+Program implementuje system sterowania lądownikiem księżycowym
+z wykorzystaniem LOGIKI ROZMYTEJ (fuzzy logic control). 
+System decyduje o sile ciągu głównego oraz o kierunku ciągu bocznego,
+aby bezpiecznie posadzić lądownik w środowisku symulacyjnym 
+LunarLanderContinuous-v3 (pakiet Gymnasium).
+
+Zastosowany model sterowania jest typu MAMDANI i wykorzystuje 
+zbiorów rozmytych oraz zestaw reguł typu „jeżeli... to...”, które
+naśladują sposób podejmowania decyzji przez człowieka-pilota.
+
+--------------------------------------------------------------------
+DANE WEJŚCIOWE (zmienne rozmyte – Antecedents):
+--------------------------------------------------------------------
+1.  θ (theta)      – kąt nachylenia lądownika względem pionu
+2.  dθ (dtheta)    – prędkość kątowa (zmiana nachylenia)
+3.  vx             – prędkość pozioma
+4.  vy             – prędkość pionowa
+5.  x              – pozycja pozioma (odchylenie od środka)
+6.  y              – wysokość nad powierzchnią
+
+--------------------------------------------------------------------
+WYJŚCIA SYSTEMU (zmienne wynikowe – Consequents):
+--------------------------------------------------------------------
+1.  main_thrust – siła głównego silnika (0.0 – 1.0)
+2.  lat_thrust  – kierunek ciągu bocznego (-1.0 lewo, 1.0 prawo)
+
+"""
+
 import numpy as np
 import gymnasium as gym
 import skfuzzy as fuzz
