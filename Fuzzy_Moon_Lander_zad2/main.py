@@ -3,7 +3,7 @@
 SYSTEM STEROWANIA LĄDOWNIKIEM KSIĘŻYCOWYM
 ====================================================================
 
-Autorzy: [s27433, ]
+Autorzy: s27433, s28866 
 Technologia: Python 3.11, scikit-fuzzy, Gymnasium (LunarLanderContinuous-v3)
 
 --------------------------------------------------------------------
