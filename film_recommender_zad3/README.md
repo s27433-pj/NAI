@@ -1,7 +1,7 @@
 
 # film recommender
 
-Prosty system rekomendacji filmów i seriali oparty na Pearson correlation, filtracji kolaboratywnej (user–user) oraz danych z The Movie Database (TMDB).
+System rekomendacji filmów i seriali oparty na Pearson correlation oraz danych z The Movie Database (TMDB).
 
 # Technologie / biblioteki
 Python 3.12+, numpy, requests, json
