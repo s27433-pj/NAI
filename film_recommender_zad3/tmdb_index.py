@@ -11,7 +11,7 @@ import requests
 RATINGS_FILE = "ratings_tmdb_clean.json"
 OUTPUT_FILE = "tmdb_index.json"
 
-TMDB_API_KEY = "11adedb5512338735559fa2af4ba96f2"
+TMDB_API_KEY = ""
 TMDB_BASE_URL = "https://api.themoviedb.org/3/search/multi"
 LANGUAGE = "pl-PL"
 
