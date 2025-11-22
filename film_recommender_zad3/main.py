@@ -1,6 +1,5 @@
 """
-NAI – ćwiczenia 08.11.2025
-Prosty system rekomendacji filmów i seriali oparty na Pearson correlation oraz filtracji kolaboratywnej user–user.
+System rekomendacji filmów i seriali oparty na Pearson correlation oraz filtracji kolaboratywnej user–user.
 
 Instrukcja użycia:
 1. Wygeneruj ratings_tmdb_clean.json (normalize_ratings.py).
